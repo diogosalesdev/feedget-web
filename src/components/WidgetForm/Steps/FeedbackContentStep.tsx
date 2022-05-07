@@ -44,12 +44,12 @@ export function FeedbackContentStep({
             <header>
                 <button 
                     type="button" 
-                    className="top-5 left-5 absolute text-zinc-400 hover:text-zinc-100"
+                    className="top-5 left-5 absolute text-[#71717A] hover:text-zinc-800 dark:text-zinc-400 dark:hover:text-zinc-100"
                     onClick={onRestartFeedback}
                 >
-                    <ArrowLeft weight="bold" className="w-4 h-4"/>
+                    <ArrowLeft weight="bold" className="w-4 h-4 text-[#71717A] hover:text-zinc-800 dark:text-zinc-400 dark:hover:text-zinc-100"/>
                 </button>
-                <span className="text-xl leading-6 flex items-center gap-2">
+                <span className="text-xl leading-6 flex items-center gap-2 text-[#27272A] dark:text-[#F4F4F5] ">
                     <img src={feedbackTypeInfo.image.source} alt={feedbackTypeInfo.image.alt} className="w-6 h-6"/>
                     {feedbackTypeInfo.title}
                 </span>
